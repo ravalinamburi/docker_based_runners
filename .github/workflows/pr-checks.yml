@@ -6,7 +6,7 @@ on:
 
 jobs:
   pr-checks:
-    uses: common_scripts/.github/workflows/checks.yml@main
+    uses: ravalinamburi/common_scripts/.github/workflows/checks.yml@main
     with:
       run_pr_title_check: true
       run_pr_email_check: true
