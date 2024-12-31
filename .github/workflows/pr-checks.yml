@@ -6,6 +6,7 @@ on:
 
 jobs:
   pr-checks:
+    # Resuable workflow
     uses: ravalinamburi/common_scripts/.github/workflows/checks.yml@run_in_container
     with:
       run_pr_title_check: true
